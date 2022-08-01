@@ -6,8 +6,7 @@
 Go inside the project folder and execute the below commands. We will use [venv](https://docs.python.org/3/library/venv.html) to setup the VirtualEnv.
 
 ```
-pipenv shell --python 3.9.2
-pipenv install -r requirements.txt
+pip install -r requirements.txt
 
 ```
 
