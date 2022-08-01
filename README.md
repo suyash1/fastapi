@@ -35,5 +35,9 @@ celery -A main.celery worker --loglevel=info -Q tasks (in a new tab)
 ```
 Please make sure rabbitmq is running at this point.
 
+### High Level Architecture for Async Processing
+![Screen Shot 2022-08-01 at 4 22 29 PM](https://user-images.githubusercontent.com/1841064/182146915-6d7e6a0d-60c6-4ce5-8e53-c4d9c8da98ba.png)
+
+
 ### Test the application
 You can visit http://127.0.0.1:8000/docs in our browser to see the interactive API documentation provided by [Swagger UI](https://github.com/swagger-api/swagger-ui). You can try the APIs in the swagger. I have added `input.json` file for testing the cycle in lists. You can modify the file and add more cases to it. Alternatively, you can upload another test file, which will appear in the application root folder later.
