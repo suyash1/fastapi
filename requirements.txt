@@ -1,0 +1,6 @@
+fastapi==0.79.0
+uvicorn[standard]==0.17.4
+celery==5.2.3
+flower==1.0.0
+httpx ==0.21.1
+python-multipart==0.0.5
